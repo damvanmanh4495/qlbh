@@ -1,0 +1,99 @@
+.header-sale {
+    height: 50px;
+    background: #0964CF;
+    // justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+    button {
+        border: none;
+        height: 100%;
+        background: inherit;
+
+    }
+
+    .suggest-input {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .tab-header {
+        height: 50px;
+        width: 100%;
+        display: flex;
+
+        .tab-list {
+            height: 100%;
+            display: flex;
+
+            li {
+                margin-right: 5px;
+            }
+
+            .tab-active {
+                background: #fff;
+
+                button {
+                    color: #000;
+                }
+            }
+
+            .tab-n-active {
+                background: #11398a;
+                color: #fff;
+
+                button {
+                    color: #fff;
+                }
+            }
+        }
+
+
+        .bt-add {
+            color: #fff;
+            font-size: 30px;
+        }
+    }
+
+    .right-button {
+        height: 100%;
+        float: right;
+        padding: 0;
+
+        .bt-back {
+            color: #fff;
+            font-size: 30px;
+        }
+    }
+}
+
+.tb-2-col-w-50 {
+    width: 100%;
+
+    // background: crimson;
+    tr {
+        height: 40px;
+
+        td {
+            width: 50%
+        }
+    }
+
+    .col-text {
+        text-align: left;
+    }
+
+    .col-num {
+        text-align: right;
+    }
+
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+}
+
+.sale-page {}

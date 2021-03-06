@@ -1,0 +1,42 @@
+{
+    "page":1,
+    "size":20,
+    "data":[
+        {
+            "id":1,
+            "name": "Nguyễn Văn A",
+            "code": "C11",
+            "email":"a@gmail.com",
+            "phone_no":"0123456778",
+            "address":"ha noi - viet nam",
+            "gender":"nam",
+            "description": "Đây là mô tả nguyenvan a",
+            "status":"Dang giao dich"
+        },
+        {
+            "id":2,
+            "name": "Nguyễn Văn D",
+            "code": "C12",
+            "email":"d@gmail.com",
+            "phone_no":"0123456778",
+            "address":"ha noi - viet nam",
+            "gender":"nam",
+            "description": "Đây là mô tả nguyenvan d",
+            "status":"Dang giao dich"
+        },
+        {
+            "id":3,
+            "name": "Nguyễn Văn B",
+            "code": "C13",
+            "email":"b@gmail.com",
+            "phone_no":"0123456778",
+            "address":"ha noi - viet nam",
+            "gender":"nam",
+            "description": "Đây là mô tả nguyenvan b",
+            "status":"Dang giao dich"
+        }
+    ],
+    "total_elements": 34,
+    "total_pages": 2,
+    "is_last": false
+}

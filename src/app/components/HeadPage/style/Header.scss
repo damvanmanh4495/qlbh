@@ -1,0 +1,28 @@
+.header-page {
+    padding: 20px 0;
+
+    .title {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .sub-title {
+        color: #637381;
+    }
+
+    .action-bar {
+        margin-left: -8px;
+
+        .icon {
+            color: transparent;
+            fill: #637381;
+            width: 20px;
+            height: 20px;
+            background-size: contain;
+            background-position: 50%;
+            background-repeat: no-repeat;
+            margin-right: 5px;
+        }
+    }
+}

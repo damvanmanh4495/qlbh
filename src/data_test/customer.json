@@ -1,0 +1,11 @@
+{
+    "id":1,
+    "name": "Nguyễn Văn A",
+    "code": "C11",
+    "email":"a@gmail.com",
+    "phone_no":"0123456778",
+    "address":"ha noi - viet nam",
+    "gender":"nam",
+    "description": "Đây là mô tả nguyenvan a",
+    "status":"Dang giao dich"
+}

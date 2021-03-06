@@ -1,0 +1,63 @@
+.payment-menu {
+    // background: red;
+    height: calc(100vh - 50px);
+    margin: 0 -12px;
+    padding: 5px 0px;
+
+    table {
+        width: 100%;
+
+        // background: crimson;
+        tr {
+            height: 40px;
+
+            td {
+                width: 50%
+            }
+        }
+
+        .col-num {
+            text-align: right;
+        }
+    }
+
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .note {
+        width: 100%;
+    }
+
+    .bt-footer {
+        button {
+            margin-top: 100px;
+            height: 125px;
+            border: none;
+            width: 100%;
+        }
+        .bt-deposit {
+            color: #fff; 
+            padding: 0;
+            background: #2FA84F;
+            border-radius: 10px;
+        }
+    }
+    
+    .customer-form-popup{
+        .line{
+            width: 100%;
+            display: flex;
+            margin-bottom: 15px;
+            .input-item{
+                padding: 0 25px;
+                width: 50%;
+            }
+            .full-line{
+                padding: 0 25px;
+                width: 100%;
+            }
+        }
+    }
+}

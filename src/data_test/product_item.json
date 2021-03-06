@@ -1,0 +1,40 @@
+{
+    "id": 22,
+    "name": "Áo polo nam tay ngắn form fitted",
+    "code": "10F20POL013",
+    "description": "Chất liệu: 100% Cotton; Đặc tính: Chống thấm nước tốt, tránh bám bụi. Hướng dẫn sử dụng: - Giặt ở nhiệt độ bình thường. - Không được dùng hóa chất tẩy, ủi ở nhiệt độ thích hợp. - Hạn chế sử dụng máy sấy.",
+    "quantity": 200,
+    "category_name": "Lợn",
+    "image_url": "https://product.hstatic.net/1000341789/product/mausac_white_10f20pol013__1__27634e58d76c43d7be1ad12e16382c4e_master.jpg",
+    "quantity_sold": 100,
+    "created_on": "2020-12-03T00:11:19Z",
+    "modified_on": "2020-12-08T20:00:34Z",
+    "category": [{ "id": 1, "name": "Lợn" }],
+    "price": 89900,
+    "color": "Vàng",
+    "material": "Vải lụa",
+    "size": "L",
+    "barcode": "845151651615465",
+    "net_weight": 300,
+    "variants": [
+        {
+            "id": 22,
+            "color": "Vàng",
+            "marterial": "Giấy",
+            "size": "S",
+            "image": "https://sapo.dktcdn.net/100/402/739/variants/e5a4b731-119b-44ad-8ec3-fecc58d99e6a.jpg"
+        },
+        {
+            "id": 23,
+            "color": "Vàng",
+            "marterial": "Vải lụa",
+            "size": "L"
+        },
+        {
+            "id": 24,
+            "color": "Vàng",
+            "marterial": "Giấy",
+            "size": "XL"
+        }
+    ]
+}

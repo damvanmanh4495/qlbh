@@ -1,0 +1,24 @@
+{
+    "page": 1,
+    "size": 20,
+    "data":[
+        {
+            "id": 1,
+            "name": "dam van manh",
+            "email": "a@gmail.com",
+            "status": "Đang làm việc",
+            "address": "hanoi - viet nam",
+            "phone": "0999999999",
+            "created_on": "2020-12-03T00:11:19Z"
+        },
+        {
+            "id": 2,
+            "name": "aaaaaaaaaa",
+            "email": "b@gmail.com",
+            "status": "Đang làm việc",
+            "address": "hanoi - viet nam",
+            "phone": "0999999999",
+            "created_on": "2020-12-03T00:11:19Z"
+        }
+    ]
+}

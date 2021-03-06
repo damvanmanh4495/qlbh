@@ -1,0 +1,179 @@
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.page-order-detail {
+    .modal-body {
+        padding: 0;
+    }
+
+    .bottom-head-page {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .bt-print {
+        border-radius: 3px;
+        border: 1px solid #c4cdd5;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        background: #fff;
+        color: #637381;
+    }
+
+    select {
+        color: #637381;
+        border: none;
+        background: inherit;
+
+        option {
+            padding: 200px;
+        }
+    }
+
+    .page-info-body {
+        .line-info {
+            width: 100%;
+            margin-bottom: 7px;
+            font-size: 13px;
+            display: flex;
+
+            label {
+                width: 50%;
+            }
+
+            .content {
+                width: 50%;
+                padding-left: 5px;
+                text-align: justify;
+            }
+
+            .right {
+                float: right;
+            }
+        }
+    }
+
+    .bt-order-his {
+        margin-bottom: 1rem;
+    }
+}
+
+.form-content {
+    .form-info-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h4 {
+            margin: 0;
+        }
+
+        .right-badge {
+            background-color: #20a91780;
+            display: inline-block;
+            min-width: 10px;
+            padding: 3px 7px;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 1;
+            color: #050f28;
+            text-align: center;
+            // vertical-align: baseline;
+            border-radius: 10px;
+            border: 1px solid #fff;
+            font-weight: 400;
+        }
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    i {
+        color: #007bff;
+        font-size: 30px;
+    }
+
+    .customer-name {
+        margin-left: 10px;
+        color: #007bff;
+    }
+
+    .customer-phone {
+        text-align: right;
+        width: 50%;
+    }
+
+    label.custom-control-label {
+        position: relative;
+        padding-right: 1.5rem;
+      }
+      
+      label.custom-control-label::before, label.custom-control-label::after{
+        right: 0;
+        left: auto;
+      }
+}
+
+.or-dt-user-info {
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.or-dt-list-line-item {
+    table {
+
+        thead {
+            border: 1px solid #c4cdd5;
+            border-width: 1px 0;
+
+            th {
+                padding: 15px 0;
+            }
+
+        }
+
+        tr {
+
+            border: 1px solid #c4cdd5;
+            border-width: 1px 0;
+
+            td {
+                padding: 15px 0;
+            }
+        }
+    }
+}
+
+.or-dt-footer-bill {
+    padding: 30px 0;
+}
+
+.or-dt-return {
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+.body-order-his {
+    height: 450px;
+    overflow-y: auto;
+
+    table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        border-collapse: collapse;
+
+        tr {
+            border: solid #c4cdd5;
+            border-width: 1px 0;
+        }
+
+        th,
+        td {
+            padding: 8px 8px 8px 15px;
+        }
+    }
+}

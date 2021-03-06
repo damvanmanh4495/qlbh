@@ -1,0 +1,35 @@
+.page-info {
+    border-radius: 3px;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 20px;
+
+    .page-info-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .page-info-body {
+        .line-info {
+            width: 100%;
+            margin-bottom: 7px;
+            font-size: 13px;
+            display: flex;
+
+            label {
+                width: 50%;
+            }
+
+            .content {
+                width: 50%;
+                padding-left: 5px;
+                text-align: justify;
+            }
+
+            .right {
+                float: right;
+            }
+        }
+    }
+}

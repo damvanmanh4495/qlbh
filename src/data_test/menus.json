@@ -1,0 +1,54 @@
+[
+    {
+      "id" : 1,
+      "name" : "Tổng quan",
+      "url" : "/",
+      "icon" : "fas fa-home"
+    },
+    {
+      "id" : 2,
+      "name" : "Sản phẩm",
+      "icon" : "fas fa-cube",
+      "children" : [
+        {
+          "id" : 21,
+          "name" : "Danh sách sản phẩm",
+          "url" : "/products"
+        }
+      ]
+    },
+    {
+      "id" : 3,
+      "name" : "Đơn hàng",
+      "icon" : "far fa-calendar-minus",
+      "children" : [
+        {
+          "id" : 31,
+          "name" : "Bán hàng",
+          "url" : "/sale"
+        },
+        {
+          "id" : 32,
+          "name" : "Danh sách đơn hàng",
+          "url" : "/orders"
+        },
+        {
+          "id" : 33,
+          "name" : "Khách trả hàng",
+          "url" : "/orders/returns"
+        }
+      ]
+    },
+    {
+      "id" : 5,
+      "name" : "Khách hàng",
+      "icon" : "far fa-user",
+      "url" : "/customers"
+    },
+    {
+      "id" : 4,
+      "name" : "Cấu hình",
+      "icon" : "fas fa-cog",
+      "url" : "/settings"
+    }
+]

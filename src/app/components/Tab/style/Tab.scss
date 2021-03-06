@@ -1,0 +1,16 @@
+.tab {
+    margin: 0 -20px 0 -20px;
+    padding: 0 20px;
+
+    button {
+        min-width: unset;
+        padding: 0 8px;
+        margin-right: 16px;
+    }
+
+    span {
+        text-transform: none;
+        font-weight: bold;
+        font-size: 13px;
+    }
+}
